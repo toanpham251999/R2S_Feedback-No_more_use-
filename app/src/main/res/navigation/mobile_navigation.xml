@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_homepage">
+
+    <fragment
+        android:id="@+id/nav_homepage"
+        android:name="com.example.feedbackapp.ui.homepage.HomePageFragment"
+        tools:layout="@layout/fragment_homepage" />
+
+    <fragment
+        android:id="@+id/nav_assignment"
+        android:name="com.example.feedbackapp.ui.assignment.AssignmentFragment"
+        tools:layout="@layout/fragment_assignment" />
+
+    <fragment
+        android:id="@+id/nav_classs"
+        android:name="com.example.feedbackapp.ui.classs.ClasssFragment"
+        tools:layout="@layout/fragment_classs" />
+    <fragment
+        android:id="@+id/nav_module"
+        android:name="com.example.feedbackapp.ui.module.ModuleFragment"
+        tools:layout="@layout/module_fragment" />
+    <fragment
+        android:id="@+id/nav_enrrollment"
+        android:name="com.example.feedbackapp.ui.enrrollment.EnrrollmentFragment"
+        tools:layout="@layout/enrrollment_fragment" />
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.feedbackapp.ui.feedback.FeedBackFragment"
+        tools:layout="@layout/feedback_fragment" />
+    <fragment
+        android:id="@+id/nav_result"
+        android:name="com.example.feedbackapp.ui.result.ResultFragment"
+        tools:layout="@layout/result_fragment" />
+    <fragment
+        android:id="@+id/nav_question"
+        android:name="com.example.feedbackapp.ui.question.QuestionFragment"
+        tools:layout="@layout/question_fragment" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.feedbackapp.ui.contact.ContactFragment"
+        tools:layout="@layout/contact_fragment" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.feedbackapp.ui.logout.LogOutFragment"
+        tools:layout="@layout/fragment_logout" />
+</navigation>
