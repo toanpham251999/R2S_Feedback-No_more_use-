@@ -53,7 +53,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Username must have at least 1 character!"
             android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
@@ -77,7 +76,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Password must have at least 1 character!"
             android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
@@ -89,6 +87,7 @@
             android:entries="@array/Role_Entry"
             android:gravity="center"
             android:paddingHorizontal="50dp"
+            android:spinnerMode="dropdown"
             android:textSize="24sp" />
 
         <LinearLayout

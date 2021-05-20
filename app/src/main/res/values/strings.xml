@@ -104,8 +104,8 @@
 
     <!-- Phần này Thịnh thêm vào -->
     <string-array name="Role_Entry">
-        <item>Trainee</item>
-        <item>Trainer</item>
         <item>Admin</item>
+        <item>Trainer</item>
+        <item>Trainee</item>
     </string-array>
 </resources>
