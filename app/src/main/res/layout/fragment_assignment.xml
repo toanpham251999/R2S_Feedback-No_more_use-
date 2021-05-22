@@ -7,16 +7,61 @@
     tools:context=".ui.assignment.AssignmentFragment">
 
     <TextView
-        android:id="@+id/text_gallery"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:id="@+id/text_assignment"
+        android:layout_width="251dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="52dp"
+        android:text="Assignment"
         android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#000"
+        android:textSize="35sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/assignmentList"
+        android:layout_width="412dp"
+        android:layout_height="273dp"
+        android:layout_marginBottom="372dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Search"
+        app:layout_constraintVertical_bias="0.0"
+        tools:listitem="@layout/activity_assignment_item" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_add_assignment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3770FF"
+        android:contentDescription="add_assignment"
+        android:src="@drawable/ic_baseline_add_24"
+        app:layout_constraintBottom_toBottomOf="@+id/text_assignment"
+        app:layout_constraintStart_toEndOf="@+id/text_assignment" />
+
+    <EditText
+        android:id="@+id/editText_Search"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Search"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_assignment" />
+
+    <Button
+        android:id="@+id/btn_Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="#FD3C01"
+        android:backgroundTint="#FD3C01"
+        android:text="Search"
+        app:layout_constraintStart_toEndOf="@+id/editText_Search"
+        app:layout_constraintTop_toTopOf="@+id/editText_Search" />
 </androidx.constraintlayout.widget.ConstraintLayout>

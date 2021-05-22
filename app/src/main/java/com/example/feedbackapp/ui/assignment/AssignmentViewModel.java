@@ -10,7 +10,7 @@ public class AssignmentViewModel extends ViewModel {
 
     public AssignmentViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("Assignment");
     }
 
     public LiveData<String> getText() {
