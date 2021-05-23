@@ -103,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed-light"
-                android:text="Remenber Password"
+                android:text="Remember Password"
                 android:textSize="24sp"
                 android:textStyle="bold" />
         </LinearLayout>
