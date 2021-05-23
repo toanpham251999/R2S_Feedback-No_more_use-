@@ -20,7 +20,7 @@
             app:srcCompat="@drawable/ic_outline_error_outline_24" />
 
         <TextView
-            android:id="@+id/txt_ErrorMessage"
+            android:id="@+id/txt_LogoutTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"

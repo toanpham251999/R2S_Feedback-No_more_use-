@@ -101,6 +101,7 @@
                 android:id="@+id/chk_RememberMe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed-light"
                 android:text="Remember Password"
@@ -113,9 +114,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="#E1CCCC"
-            android:backgroundTint="#FFFFFF"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            android:background="@drawable/custom_button"
             android:text="LOGIN"
-            android:textSize="24sp" />
+            android:textColor="#FB470E"
+            android:textSize="24sp"
+            app:backgroundTint="@null" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
